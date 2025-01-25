@@ -1,6 +1,6 @@
 import axios from "axios";
 import SystemMessage from "./message";
-const baseURL = import.meta.env.VITE_BACKEND_API;
+const baseURL = import.meta.env.VITE_API_URL;
 
 const request = axios.create({
   baseURL: baseURL,
